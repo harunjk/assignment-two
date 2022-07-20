@@ -1,0 +1,124 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    
+    
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    text-align: center;
+    width:890px;
+    border-radius: 15px;
+    
+}
+
+.artical{
+    margin: 25px;
+    align-items: center;
+    color: rgb(147, 170, 94);
+}
+
+.photo img{
+    margin-top:55px;
+}
+
+.container .artical button{
+
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(247, 136, 10);
+    margin-top: 20px;
+    padding: 15px;
+}
+h2{
+    color: aquamarine;
+    font-size: 45px;
+}
+
+
+.section{
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-two{
+    width:890px;
+    border-radius: 15px;
+    
+}
+.login-form{
+
+    background-color: black;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 15px;}
+
+.login-form input{
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;}
+    .submit-blog{
+        background-color: rgb(202, 17, 131);
+    }
+/*    ----------------------------------------------------------- */
+    .one{
+        display: flex;
+    } 
+
+    .top-blogs{
+        padding-left: 15px;
+    }
+ 
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+    }
+    
+.ger-fr{display:flex;
+    
+    }
+
+.blog-info{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+    footer{
+        height: 200px;
+        text-align: center;
+        background-color: black;
+    }
+
+    footer h3{
+        color: aliceblue;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    hr{
+        width: 900px;
+    }
+
+    .buttoms{
+        padding-top: 25px;
+    }
+
+    .buttoms a{
+        text-decoration: none;
+        padding: 25px;
+        color: aliceblue;
+    }
