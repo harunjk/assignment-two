@@ -68,14 +68,16 @@ h2{
     flex-direction: column;
     border-radius: 15px;}
 
-.login-form input{
-    border-radius: 15px;
+.login-form a{
+    background-color: antiquewhite;
+    text-decoration: none;
+    border-radius: 10px;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     font-size: 20px;}
-    .submit-blog{
-        background-color: rgb(202, 17, 131);
-    }
+   
+
+    .section-two .one .aouthor{ background-color: rgb(189, 230, 43);}
 
     .blogs{
         display: grid;
