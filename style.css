@@ -56,7 +56,6 @@ h2{
 
 .section-two{
     width: 870px;
-    background-color: bisque;
     border-radius: 15px;
 }
 .login-form{
@@ -70,9 +69,13 @@ h2{
     border-radius: 15px;}
 
 .login-form input{
+    border-radius: 15px;
     margin: 10px;
     padding: 10px;
     font-size: 20px;}
+    .submit-blog{
+        background-color: rgb(202, 17, 131);
+    }
 
     .blogs{
         display: grid;
@@ -82,9 +85,14 @@ h2{
     }
     .one{display: flex;}
 
+    .icon{
+        display: flex;
+        justify-content:space-around;
+    }
+
     .blog .thumbnail a{
         text-decoration: none;
-        border-radius: 10px;
+        border-radius: 5px;
         color: azure;
         background-color: black;
     }
@@ -94,5 +102,31 @@ h2{
     .blog .thumbnail img{
         width: 177px;
         height: 117px;
+    }
+
+
+    footer{
+        height: 200px;
+        text-align: center;
+        background-color: black;
+    }
+
+    footer h3{
+        color: aliceblue;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    hr{
+        width: 900px;
+    }
+
+    .buttoms{
+        padding-top: 25px;
+    }
+
+    .buttoms a{
+        text-decoration: none;
+        padding: 25px;
+        color: aliceblue;
     }
 
